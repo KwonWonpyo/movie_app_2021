@@ -8,15 +8,24 @@
     margin: 0 auto;
     margin-top: 100px;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     font-weight: 300;
 }
 
-.about__container span:first-child {
+.about__container .idiom {
+    display: block;
+    font-size: 27px;
+    font-weight: 350;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.about__container .intro {
+    display: block;
     font-size: 20px;
 }
 
-.about__container span:last-child {
+.about__container .contact {
     display: block;
     margin-top: 10px;
 }
