@@ -1,6 +1,5 @@
 import React from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
 import './Detail.css';
 import logo from '../logo.svg'
 
@@ -53,7 +52,7 @@ class Detail extends React.Component {
                         <span className="loader__text">Now Loading...</span>
                     </div>
                     : <div className="details">
-                        <img src={movie.large_cover_image}/>
+                        <img src={movie.large_cover_image} alt={movie.title}/>
                         <span className="detail">
                             <h1 className="detail__title">{movie.title_long}</h1>
                             <ul className="detail__genres">
@@ -70,7 +69,7 @@ class Detail extends React.Component {
                             <ul className="torrent">
                                 {movie.torrents.map((torrent, index) => {
                                     return (
-                                        <a href={torrent.url}>
+                                        <a key={index} href={torrent.url}>
                                             <li key={index} className="torrent">Download Torrent {index}</li>
                                         </a>
                                     );
