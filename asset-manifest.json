@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/movie_app_2021/static/css/main.b4c11a7b.chunk.css",
-    "main.js": "/movie_app_2021/static/js/main.798c0dde.chunk.js",
-    "main.js.map": "/movie_app_2021/static/js/main.798c0dde.chunk.js.map",
-    "runtime-main.js": "/movie_app_2021/static/js/runtime-main.6245d8fe.js",
-    "runtime-main.js.map": "/movie_app_2021/static/js/runtime-main.6245d8fe.js.map",
-    "static/js/2.e8cb0337.chunk.js": "/movie_app_2021/static/js/2.e8cb0337.chunk.js",
-    "static/js/2.e8cb0337.chunk.js.map": "/movie_app_2021/static/js/2.e8cb0337.chunk.js.map",
-    "static/js/3.e6a57e14.chunk.js": "/movie_app_2021/static/js/3.e6a57e14.chunk.js",
-    "static/js/3.e6a57e14.chunk.js.map": "/movie_app_2021/static/js/3.e6a57e14.chunk.js.map",
+    "main.css": "/movie_app_2021/static/css/main.571c1d73.chunk.css",
+    "main.js": "/movie_app_2021/static/js/main.d26f43db.chunk.js",
+    "main.js.map": "/movie_app_2021/static/js/main.d26f43db.chunk.js.map",
+    "runtime-main.js": "/movie_app_2021/static/js/runtime-main.48e06cec.js",
+    "runtime-main.js.map": "/movie_app_2021/static/js/runtime-main.48e06cec.js.map",
+    "static/js/2.5712515b.chunk.js": "/movie_app_2021/static/js/2.5712515b.chunk.js",
+    "static/js/2.5712515b.chunk.js.map": "/movie_app_2021/static/js/2.5712515b.chunk.js.map",
+    "static/js/3.2c981f69.chunk.js": "/movie_app_2021/static/js/3.2c981f69.chunk.js",
+    "static/js/3.2c981f69.chunk.js.map": "/movie_app_2021/static/js/3.2c981f69.chunk.js.map",
     "index.html": "/movie_app_2021/index.html",
-    "static/css/main.b4c11a7b.chunk.css.map": "/movie_app_2021/static/css/main.b4c11a7b.chunk.css.map",
-    "static/js/2.e8cb0337.chunk.js.LICENSE.txt": "/movie_app_2021/static/js/2.e8cb0337.chunk.js.LICENSE.txt",
+    "static/css/main.571c1d73.chunk.css.map": "/movie_app_2021/static/css/main.571c1d73.chunk.css.map",
+    "static/js/2.5712515b.chunk.js.LICENSE.txt": "/movie_app_2021/static/js/2.5712515b.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/movie_app_2021/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6245d8fe.js",
-    "static/js/2.e8cb0337.chunk.js",
-    "static/css/main.b4c11a7b.chunk.css",
-    "static/js/main.798c0dde.chunk.js"
+    "static/js/runtime-main.48e06cec.js",
+    "static/js/2.5712515b.chunk.js",
+    "static/css/main.571c1d73.chunk.css",
+    "static/js/main.d26f43db.chunk.js"
   ]
 }
