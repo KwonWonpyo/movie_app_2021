@@ -17,9 +17,7 @@ function About() {
         </span>
         <span className="contact">
             소스코드:
-            <Link to="https://github.com/KwonWonpyo/movie_app_2021">
-                https://github.com/KwonWonpyo/movie_app_2021
-            </Link>
+            <a href="https://github.com/KwonWonpyo/movie_app_2021">https://github.com/KwonWonpyo/movie_app_2021</a>
         </span>
     </div>
   );

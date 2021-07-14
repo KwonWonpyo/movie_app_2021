@@ -70,9 +70,9 @@ class Detail extends React.Component {
                             <ul className="torrent">
                                 {movie.torrents.map((torrent, index) => {
                                     return (
-                                        <Link to={torrent.url}>
+                                        <a href={torrent.url}>
                                             <li key={index} className="torrent">Download Torrent {index}</li>
-                                        </Link>
+                                        </a>
                                     );
                                 })}
                             </ul>
