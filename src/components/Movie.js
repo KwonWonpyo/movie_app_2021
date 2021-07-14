@@ -3,15 +3,15 @@ import PropTypes from 'prop-types';
 import "./Movie.css";
 import { Link } from 'react-router-dom';
 
-function Movie({ year, title, summary, poster, genres}) {
+function Movie({ id, year, title, summary, poster, genres}) {
   if(summary.length > 200)
-    summary = summary.slice(0, 200) + '......';
+    var _summary = summary.slice(0, 200) + '......';
   return(
     <div className="movie">
       <Link
         to={{
           pathname: '/movie-detail',
-          state: { year, title, summary, poster, genres },
+          id,
         }}
       >
         <img src={poster} alt={title} title={title}/>
@@ -23,7 +23,7 @@ function Movie({ year, title, summary, poster, genres}) {
               return <li key={index} className="movie__genres">{genre}</li>;
             })}
           </ul>
-          <p className="movie__summary">{summary}</p>
+          <p className="movie__summary">{_summary}</p>
         </div>
       </Link>
     </div>
@@ -31,6 +31,7 @@ function Movie({ year, title, summary, poster, genres}) {
 }
 
 Movie.propTypes = {
+  id: PropTypes.number.isRequired,
   year: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,

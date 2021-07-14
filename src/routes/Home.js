@@ -17,7 +17,15 @@ class Home extends React.Component {
       data: {
         data: { movies },
       },
-    } = await axios.get('https://yts.mx/api/v2/list_movies.json?sort_by=year');
+    } = await axios.get('https://yts.mx/api/v2/list_movies.json', {
+      params: {
+        sort_by: "rating",
+        limit: 20,
+        genres: "all",
+        query_term: "0",
+        minimum_rating: 0,
+      }
+    });
     console.log(movies);
     this.setState({ movies: movies,  // 변수 이름이 같으면 축약 가능 ex) {movies}
                     isLoading: false, });
@@ -37,13 +45,14 @@ class Home extends React.Component {
         {isLoading 
         ? <div className="loader">
             <img src={logo} className="App-logo" alt="logo" />
-            <span className="loader__text">영화 목록을 불러오는 중입니다...</span>
+            <span className="loader__text">Now Loading...</span>
           </div>
         : <div className="movies">
           {movies.map(movie => {
             return (
             <Movie 
               key={movie.id}
+              id={movie.id}
               year={movie.year}
               title={movie.title}
               summary={movie.summary}
