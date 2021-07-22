@@ -22,7 +22,7 @@
 > `create-react-app`을 통해 React 웹앱 시작하기\
 > `Axios`를 이용해 [영화 평점 사이트](https://yts.mx/api)로부터 영화 데이터 불러오기\
 > `react-router-dom`을 통해 여러 페이지 routing 및 잘못된 접근에 대한 re-directing\
-> CSS 스타일링 및 GitHub Pages로 URL 배포하기
+> CSS 스타일링 및 `GitHub Pages`로 URL 배포하기
 
 - 2021.07.15 영화 상세 내용 페이지 구현
 > Detail 컴포넌트 추가\
@@ -34,7 +34,7 @@
 > Filter 컴포넌트 추가\
 > 정렬기준, 장르, 키워드 검색 구현\
 > No-data 에러 페이지 추가\
-> 컴포넌트 관리를 위한 redux 추가
+> 컴포넌트 관리를 위한 `redux` 추가
 
 ### 참고 사이트
 
