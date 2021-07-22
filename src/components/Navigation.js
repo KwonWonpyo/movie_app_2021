@@ -7,9 +7,7 @@ function Navigation() {
         <div className="nav">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
-            <span className="filter" title="미구현입니다">
-                Filter Option
-            </span>
+            <Link to="/filteroption">Filter Option</Link>
         </div>
     );
 }

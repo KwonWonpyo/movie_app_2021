@@ -5,7 +5,7 @@ import logo from '../logo.svg'
 
 class Detail extends React.Component {
     state = {
-        isLoading: true,        
+        isLoading: true,
     };
     componentDidMount() {
         const { location, history } = this.props;
