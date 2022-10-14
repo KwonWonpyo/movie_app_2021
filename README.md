@@ -4,6 +4,8 @@
 
 영화 정보는 API를 통해 실시간으로 가져오고 있으며, 홈페이지는 `GitHub Pages`를 통해 배포중입니다.
 
+**프로젝트 결과물 보기: https://kwonwonpyo.github.io/movie_app_2021/**
+
 ### 강좌 이후 추가된 내용
 
 - 영화 목록 필터링 기능 추가
